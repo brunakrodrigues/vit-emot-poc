@@ -1,0 +1,58 @@
+# ==============================
+# Dados brutos e processados (NÃO versionar)
+# ==============================
+data/ravdess_landmarks_kaggle/00_raw_kaggle_csv/
+data/ravdess_landmarks_kaggle/01_processed_T100/
+data/ravdess_landmarks_kaggle/03_qc/
+
+# ==============================
+# Runs / checkpoints / logs
+# ==============================
+runs/
+
+# ==============================
+# Arquivos pesados por extensão
+# ==============================
+*.npz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.mp4
+*.wav
+*.zip
+*.log
+
+# ==============================
+# Python / Jupyter
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.ipynb_checkpoints/
+
+# ==============================
+# Ambiente virtual
+# ==============================
+venv/
+.venv/
+env/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
